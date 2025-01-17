@@ -63,8 +63,8 @@ button {
     background-image: url('images/background.png');
     background-size: cover;
     background-position: center;
-    width: 50vw; 
-    height: 50vw; 
+    width: fit-content; 
+    height: fit-content; 
     margin: 10px auto;
     border: 2px solid #333;
     padding: 0px;
@@ -86,3 +86,8 @@ button {
         height: 50px;
         background-size: cover;
     }
+
+.player{
+    background-image: url('images/player.png');
+    background-size: cover;
+}
